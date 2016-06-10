@@ -1,1 +1,4 @@
-# nodejs-typescript-angular2-boilerplate
+# NodeJS TypeScript Angular2 boilerplate
+
+
+

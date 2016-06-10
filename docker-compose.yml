@@ -1,0 +1,7 @@
+app:
+  image: neverbland/nodejs-typescript:1.8.10
+  command: sh /code/bin/start.sh
+  ports:
+    - 3000:3000
+  volumes:
+    - ./:/code

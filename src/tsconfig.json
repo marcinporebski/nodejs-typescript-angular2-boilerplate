@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "classic",
+    "target": "es2015",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "../typings/browser.d.ts",
+    "../typings/browser"
+  ]
+}
