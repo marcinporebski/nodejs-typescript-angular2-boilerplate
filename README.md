@@ -12,7 +12,9 @@ In order to use this boilerplate you'll need:
 
 ## How to run
 Simply:
+
 1. ```make install```
+
 2. ```make run```
 
 First command will install *npm packages* and *ts.d* typings. After successfull installation you run the application in docker environment with ```make run```, which will start docker-compose solution and a gulp-watcher afterwards.
