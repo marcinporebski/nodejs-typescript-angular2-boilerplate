@@ -40,7 +40,6 @@ gulp.task('watcher-task', function() {
     return runSequence('create-symlinks', 'real-compile-app-check-changes', 'real-compile-app', 'real-move-app-definitions', 'restart-app', 'remove-symlinks');
 });
 
-
 gulp.task('compile-app', function() {
     return runSequence('create-symlinks', 'real-compile-app-check-changes', 'real-compile-app', 'real-move-app-definitions', 'remove-symlinks');
 });
@@ -84,10 +83,10 @@ gulp.task('real-compile-app', function () {
 });
 
 gulp.task('restart-app', function() {
-    /*exec('docker exec mpkwroclaw113_app_1 "sh /code/bin/restart.sh"', function (err, stdout, stderr) {
+    exec('docker exec nodejstypescriptangular2boilerplate_app_1 "sh /code/bin/restart.sh"', function (err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
-    });*/
+    });
 });
 
 /**
